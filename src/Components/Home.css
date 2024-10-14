@@ -1,0 +1,19 @@
+.home-div {
+  height: 100vh;
+  background-image: url("../Images/florance-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.wc-text{
+    background-color: rgba(255, 200, 133, 0.3);
+    border: 5px solid white;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

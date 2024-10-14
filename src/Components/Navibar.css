@@ -1,0 +1,25 @@
+.custom-navbar {
+  background-color: rgba(241, 241, 241, 0.8);
+}
+
+.custom-navbar .navbar-brand{
+transition: 0.5s;
+}
+
+.custom-navbar .navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.custom-navbar .nav-link {
+  color: rgb(193, 81, 133);
+  transition: 0.5s;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.custom-navbar .nav-link:hover {
+  background-color: rgb(193, 81, 133);
+  color: white;
+  border-radius: 10px;
+}
