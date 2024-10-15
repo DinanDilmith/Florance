@@ -25,7 +25,7 @@ export default function Offers() {
               imageSrc={Rose}
               title="Ecuadorian Roses"
               tag="New"
-              text="Known for their large blooms and long stems, these roses come in vibrant colors and are popular for bouquets."
+              text="Large blooms and long stems in vibrant colors for bouquets."
               price="Rs. 9000.00"
               offerPrice="Rs. 5400.00"
               buttonText="Buy Now"
@@ -37,7 +37,7 @@ export default function Offers() {
               imageSrc={Tulip}
               title="Darwin Hybrid Tulips"
               tag="New"
-              text="Available in a wide range of colors and shapes, tulips symbolize love and are perfect for spring arrangements."
+              text="Symbolizing love, tulips are perfect for spring arrangements."
               price="Rs. 8000.00"
               offerPrice="Rs. 4800.00"
               buttonText="Buy Now"
@@ -48,7 +48,7 @@ export default function Offers() {
             <FlowerItem
               imageSrc={Peonies}
               title="Sarah Bernhardt Peony"
-              text="These lush, full blooms are loved for their fragrance, beauty, elegance, and timeless charm, often used in weddings."
+              text="Lush, full blooms with fragrance, perfect for weddings."
               price="Rs. 9500.00"
               offerPrice="Rs. 5700.00"
               buttonText="Buy Now"
@@ -60,7 +60,7 @@ export default function Offers() {
               imageSrc={Lilies}
               title="Asiatic Lilies"
               tag="New"
-              text=" Elegant and fragrant, lilies come in various types and colors, making them a versatile choice for arrangements."
+              text="Elegant and fragrant, lilies are versatile for arrangements."
               price="Rs. 10000.00"
               offerPrice="Rs. 6000.00"
               buttonText="Buy Now"
@@ -72,7 +72,7 @@ export default function Offers() {
               imageSrc={Orchids}
               title="Cattleya Orchids"
               tag="New"
-              text="Exotic and sophisticated, orchids are popular for their unique shapes, vibrant colors, and long-lasting blooms."
+              text="Exotic orchids with unique shapes and long-lasting blooms."
               price="Rs. 7000.00"
               offerPrice="Rs. 4200.00"
               buttonText="Buy Now"
@@ -83,7 +83,7 @@ export default function Offers() {
             <FlowerItem
               imageSrc={Sunflowers}
               title="Dwarf Sunflowers"
-              text="Bright and cheerful, sunflowers symbolize adoration, loyalty, and happiness, perfect for sunny arrangements."
+              text="Cheerful sunflowers symbolize adoration, loyalty, and happiness."
               price="Rs. 9750.00"
               offerPrice="Rs. 5850.00"
               buttonText="Buy Now"
@@ -94,7 +94,7 @@ export default function Offers() {
             <FlowerItem
               imageSrc={Hydrangeas}
               title="Endless Summer Hydrangea"
-              text=" Known for their large, round flower heads, hydrangeas come in various colors and add volume to arrangements."
+              text="Large, round flower heads add volume to floral arrangements."
               price="Rs. 11500.00"
               offerPrice="Rs. 6900.00"
               buttonText="Buy Now"
@@ -106,7 +106,7 @@ export default function Offers() {
               imageSrc={Daisies}
               title="Gerbera Daisies"
               tag="New"
-              text="Simple yet charming, daisies symbolize innocence and purity, making them a great addition to floral bouquets."
+              text="Daisies symbolize innocence, perfect for floral arrangements."
               price="Rs. 10500.00"
               offerPrice="Rs. 6300.00"
               buttonText="Buy Now"
@@ -117,3 +117,4 @@ export default function Offers() {
     </div>
   );
 }
+

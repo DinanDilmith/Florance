@@ -1,0 +1,18 @@
+.gift-div{
+    background-color: rgb(234, 221, 168);
+}
+
+.gift-img{
+    height: 500px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.gift-img:hover{
+    filter: brightness(40%);
+}
+
+.gift-text {
+    font-family: 'PlayFair';
+    padding: 0 50px;
+}

@@ -7,7 +7,7 @@ const FlowerItem = ({ imageSrc, title, tag, text, price, offerPrice, buttonText 
     <div>
       <Card className="mt-5" style={{ width: "18rem" }}>
         <Card.Img className="card-img" variant="top" src={imageSrc} />
-        <Card.Body>
+        <Card.Body  className="d-flex flex-column align-items-center text-center">
           <Card.Title>{title} {tag && <span className="tag">{tag}</span>}</Card.Title>
           <Card.Text>
             <span className="text">{text}</span> <br />

@@ -1,6 +1,7 @@
 import Navibar from "./Components/Navibar";
 import Home from "./Components/Home";
 import Offers from "./Components/Offers";
+import Categories from "./Components/Categories";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navibar />
       <Home/>
       <Offers/>
+      <Categories/>
     </div>
   );
 }
