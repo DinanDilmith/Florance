@@ -1,0 +1,28 @@
+.feature-div{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.topic-h2{
+    font-family: "PlayFair";
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.features-img{
+    height: 100px;
+    width: 100px;
+}
+
+.col-div-style{
+    padding: 40px;
+}
+
+.col-div-style h4{
+    font-family: "PlayFair";
+    margin-top: 30px;
+}
+
+.col-div-style p{
+    font-family: "PlayFair";
+}
