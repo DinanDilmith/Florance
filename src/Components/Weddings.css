@@ -1,0 +1,17 @@
+.weddings-div{
+    background-color: rgb(187, 166, 233);
+}
+
+.wedding-img{
+    height: 500px;
+    width: 100%;
+    transition: 0.3s;
+}
+.wedding-img:hover{
+    filter: brightness(40%);
+}
+
+.wedding-text{
+    font-family: 'PlayFair';
+    padding: 0 50px;
+}
