@@ -1,6 +1,6 @@
 .feature-div{
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .topic-h2{
@@ -16,6 +16,11 @@
 
 .col-div-style{
     padding: 40px;
+    transition: 0.5s;
+}
+
+.col-div-style:hover{
+    transform: scale(1.1);
 }
 
 .col-div-style h4{
