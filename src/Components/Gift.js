@@ -21,15 +21,7 @@ export default function Gift() {
                   special. From lush bouquets bursting with vibrant colors to
                   elegant assortments of roses, lilies, or seasonal blooms, each
                   order is crafted with care and personalized to suit your
-                  occasion. <br /> <br />
-                  We believe in the power of flowers to create lasting memories.
-                  That’s why we go above and beyond to ensure your gift is
-                  beautifully arranged and delivered with the utmost care. You
-                  can add a personalized note, select from a variety of vases
-                  and packaging options, and even complement your flowers with
-                  sweet treats or small gifts. With our Petals of Joy gift
-                  orders, your thoughtful gesture is sure to leave a lasting
-                  impression.
+                  occasion.
                 </h5>
               </div>
             </Col>

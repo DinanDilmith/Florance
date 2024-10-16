@@ -25,16 +25,7 @@ export default function Weddings() {
                   Whether you're envisioning a romantic garden theme with soft
                   pastels or a bold, modern look with vibrant blooms, our
                   wedding flowers are tailored to complement your style and
-                  vision. <br /> <br />
-                  Our goal is to transform your wedding venue into a
-                  breathtaking floral paradise. We offer a range of
-                  customization options, allowing you to choose from a variety
-                  of seasonal blooms, colors, and arrangements to match your
-                  wedding theme. Every flower is hand-selected and arranged to
-                  perfection, ensuring they create a lasting impression on you
-                  and your guests. With our Blossoms of Love wedding flowers,
-                  your big day will be filled with the beauty and fragrance of
-                  nature’s finest blooms.
+                  vision.
                 </h5>
               </div>
             </Col>
