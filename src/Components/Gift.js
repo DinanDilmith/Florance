@@ -25,7 +25,7 @@ export default function Gift() {
                 </h5>
               </div>
             </Col>
-            <Col xs={12} lg={5}>
+            <Col xs={12} lg={5} className="d-none d-lg-block">
               <img src={gifts} className="gift-img" alt="weddings" />
             </Col>
           </Row>

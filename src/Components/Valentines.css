@@ -1,0 +1,17 @@
+.valentines-div{
+    background-color: rgb(186, 95, 95);
+}
+
+.valentines-img{
+    height: 500px;
+    width: 100%;
+    transition: 0.3s;
+}
+.valentines-img:hover{
+    filter: brightness(40%);
+}
+
+.valentines-text{
+    font-family: 'PlayFair';
+    padding: 0 50px;
+}

@@ -9,23 +9,22 @@ export default function Weddings() {
       <Container>
         <div className="weddings-div">
           <Row>
-            <Col xs={12} lg={5}>
+            <Col xs={12} lg={5} className="d-none d-lg-block">
               <img src={weddings} className="wedding-img" alt="" />
             </Col>
             <Col xs={12} lg={7} className="d-flex align-items-center">
               <div className="wedding-text">
-                <h2>Blossoms of Love – Wedding Flowers</h2>
+                <h2>Hearts in Bloom – Valentine’s Day Flowers</h2>
                 <h5>
-                  At our flower shop, we understand that every wedding is a
-                  unique celebration of love, and our floral arrangements are
-                  designed to make your special day truly unforgettable. From
-                  delicate bouquets for the bride and bridesmaids to elegant
-                  centerpieces and dreamy floral arches, each arrangement is
-                  crafted with a passion for beauty and attention to detail.
-                  Whether you're envisioning a romantic garden theme with soft
-                  pastels or a bold, modern look with vibrant blooms, our
-                  wedding flowers are tailored to complement your style and
-                  vision.
+                  At our flower shop, we believe that love deserves to be
+                  celebrated in the most beautiful way, and our Valentine’s Day
+                  flowers are crafted to make your romantic gestures truly
+                  memorable. From classic red roses symbolizing timeless love to
+                  unique arrangements featuring vibrant tulips, lilies, and
+                  orchids, each bouquet is designed to express your feelings in
+                  a meaningful and heartfelt way. Whether you’re surprising a
+                  new love or honoring a lifelong connection, our floral
+                  creations are the perfect way to say, “I love you.”
                 </h5>
               </div>
             </Col>
