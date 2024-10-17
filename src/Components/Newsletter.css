@@ -1,31 +1,52 @@
-.newslet-div{
-    background-color: rgb(205, 95, 150);
-    margin-bottom: 60px;
+.newslet-div {
+  background-color: rgb(205, 95, 150);
+  margin-bottom: 60px;
 }
 
-.newslet-img{
-    height: 400px;
-    width: 400px;
-    margin: 40px 40px;
-    border: 5px solid white;
+.newslet-img {
+  max-height: 400px;
+  max-width: 400px;
+  margin: 40px 40px;
+  border: 5px solid white;
 }
 
-.newslet-text{
-    font-family: 'PlayFair';
-    margin-right: 60px;
+.newslet-text {
+  font-family: "PlayFair";
+  margin-right: 60px;
 }
 
-.newslet-btn{
-    background-color: rgb(214, 183, 142);
-    font-family: sans-serif;
-    padding: 10px 20px;
-    border-radius: 25px;
-    transition: 0.3s;
-    border: 1px solid rgb(214, 183, 142);
+.form-email{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+.newslet-btn {
+  background-color: rgb(214, 183, 142);
+  font-family: sans-serif;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+  border: 1px solid rgb(214, 183, 142);
 }
 
-.newslet-btn:hover{
-    background-color: rgb(205, 95, 150);
-    color: white;
-    border: 1px solid white;
+.newslet-btn:hover {
+  background-color: rgb(205, 95, 150);
+  color: white;
+  border: 1px solid white;
+}
+
+@media (max-width: 991px) {
+  .newslet-text {
+    font-family: "PlayFair";
+    text-align: center;
+    margin: 20px 40px;
+  }
+
+  .form-email{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
 }

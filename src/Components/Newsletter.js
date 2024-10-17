@@ -10,7 +10,7 @@ export default function Newsletter() {
       <Container>
         <div className="newslet-div">
           <Row>
-            <Col xs={12} lg={5} className="d-none d-lg-block">
+            <Col xs={12} lg={6} xl={5} className="d-none d-lg-block">
               <img
                 src={newsletter}
                 className="newslet-img"
@@ -18,7 +18,7 @@ export default function Newsletter() {
               />
             </Col>
 
-            <Col xs={12} lg={7} className="d-flex align-items-center justify-content-center">
+            <Col xs={12} lg={6} xl={7}  className="d-flex align-items-center justify-content-center">
               <div className="newslet-text">
                 <h2>"Stay Connected with Us!"</h2>
                 <h5>
@@ -29,7 +29,7 @@ export default function Newsletter() {
                 </h5>
 
                 <Form>
-                  <Form.Group className="my-4 w-50">
+                  <Form.Group className="form-email my-4">
                     <Form.Control
                       type="email"
                       placeholder="@typeyouremailhere"
