@@ -23,11 +23,11 @@ export default function Footer() {
             <div className="contact-div">
               <h5>Need Help?</h5>
               <h6>
-                Call Us: <a href="info@florance.com">info@florance.com</a>
+                Call Us: <a href="mailto:info@florance.com">info@florance.com</a>
               </h6>
               <h6>Contact Us: +94 91 9999456</h6>
               <h6>
-                Sales: <a href="sales@florance.com">sales@florance.com</a>
+                Sales: <a href="mailto:sales@florance.com">sales@florance.com</a>
               </h6>
             </div>
           </Col>
