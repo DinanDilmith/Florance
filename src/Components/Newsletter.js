@@ -11,14 +11,15 @@ export default function Newsletter() {
         <div className="newslet-div">
           <Row>
             <Col xs={12} lg={6} xl={5} className="d-none d-lg-block">
-              <img
-                src={newsletter}
-                className="newslet-img"
-                alt="Newsletter"
-              />
+              <img src={newsletter} className="newslet-img" alt="Newsletter" />
             </Col>
 
-            <Col xs={12} lg={6} xl={7}  className="d-flex align-items-center justify-content-center">
+            <Col
+              xs={12}
+              lg={6}
+              xl={7}
+              className="d-flex align-items-center justify-content-center"
+            >
               <div className="newslet-text">
                 <h2>"Stay Connected with Us!"</h2>
                 <h5>
@@ -35,7 +36,13 @@ export default function Newsletter() {
                       placeholder="@typeyouremailhere"
                     />
                   </Form.Group>
-                  <button className="newslet-btn" type="submit" aria-label="Subscribe to Newsletter">SUBSCRIBE</button>
+                  <button
+                    className="newslet-btn"
+                    type="submit"
+                    aria-label="Subscribe to Newsletter"
+                  >
+                    SUBSCRIBE
+                  </button>
                 </Form>
               </div>
             </Col>

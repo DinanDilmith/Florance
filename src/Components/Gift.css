@@ -16,3 +16,10 @@
     font-family: 'PlayFair';
     padding: 0 50px;
 }
+
+@media (max-width: 991px){
+    .gift-text {
+        font-family: 'PlayFair';
+        padding: 50px 50px;
+    }
+}
