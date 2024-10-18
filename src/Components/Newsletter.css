@@ -1,6 +1,6 @@
 .newslet-div {
-  background-color: rgb(205, 95, 150);
-  margin-bottom: 60px;
+  background-color: rgb(213, 126, 170);
+  margin-bottom: 80px;
 }
 
 .newslet-img {
@@ -31,7 +31,7 @@
 }
 
 .newslet-btn:hover {
-  background-color: rgb(205, 95, 150);
+  background-color: rgb(213, 126, 170);
   color: white;
   border: 1px solid white;
 }

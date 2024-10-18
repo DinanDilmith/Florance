@@ -1,0 +1,66 @@
+.footer-div {
+  background-color: rgba(202, 215, 140, 0.8);
+  font-family: "PlayFair";
+  padding: 30px;
+}
+
+.footer-div a {
+  text-decoration: none;
+}
+
+.footer-div h5 {
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.footer-div img {
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.contact-div {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.why-florance-div {
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .footer-div a {
+    text-decoration: none;
+  }
+
+  .footer-div h5 {
+    text-decoration: none;
+    margin: 15px 0px;
+  }
+
+  .footer-div img {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+  }
+
+  .contact-div {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    
+  }
+
+  .why-florance-div {
+    border-left: 0;
+    border-bottom: 1px solid black;
+    padding-left: 0px;
+    padding-bottom: 15px;
+  }
+}
