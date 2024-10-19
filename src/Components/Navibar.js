@@ -10,7 +10,7 @@ export default function Navibar() {
    <div>
       <Navbar fixed="top" expand="lg" data-bs-theme="light" className="custom-navbar py-4">
         <Container>
-          <Navbar.Brand href="#home"> <img 
+          <Navbar.Brand> <img 
               src={navCover} 
               alt="Navigation Cover" 
               className="nav-cover-img" 

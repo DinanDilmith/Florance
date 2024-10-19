@@ -4,7 +4,7 @@ import { Col, Container } from 'react-bootstrap';
 
 export default function Home() {
   return (
-    <div className='home-div'>
+    <div className='home-div' id='#home'>
         <Container>
         <Col xs={12} md={6} xl={4}>
             <div className='wc-text'>
