@@ -28,8 +28,8 @@ export default function Navibar() {
             {/* Collapsible section */}
             <Nav className="ms-auto">
               <Nav.Link as={Link} to={"/About"}>About Us</Nav.Link>
-              <Nav.Link >Delivery Info</Nav.Link>
-              <Nav.Link >Contact Us</Nav.Link>
+              <Nav.Link as={Link} to={"/DeliveryInfo"}>Delivery Info</Nav.Link>
+              <Nav.Link as={Link} to={"/ContactUs"}>Contact Us</Nav.Link>
               <Nav.Link >Sign In</Nav.Link>
               <Nav.Link >Register</Nav.Link>
             </Nav>

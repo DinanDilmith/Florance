@@ -4,6 +4,8 @@ import Loading from "./Components/Loading";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navibar from "./Components/Navibar";
 import AboutUs from "./Sections/AboutUs";
+import DeliveryInfo from "./Sections/DeliveryInfo";
+import ContactUs from "./Sections/ContactUs";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +29,8 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/About" element={<AboutUs/>} />
+            <Route path="/DeliveryInfo" element={<DeliveryInfo/>} />
+            <Route path="/ContactUs" element={<ContactUs/>} />
           </Routes>
         </div>
       )}
