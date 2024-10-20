@@ -13,7 +13,6 @@ export default function Navibar() {
           <Navbar.Brand> <img 
               src={navCover} 
               alt="Navigation Cover" 
-              className="nav-cover-img" 
               style={{ width: "150px", height: "50px" }}
             /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav" /> {/* Toggle button */}
