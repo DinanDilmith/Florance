@@ -18,6 +18,13 @@ transition: 0.5s;
   margin-right: 5px;
 }
 
+.custom-navbar .nav-link.active, 
+.custom-navbar .nav-link:focus {
+  background-color: rgb(193, 81, 133);
+  color: white;
+  border-radius: 10px;
+}
+
 .custom-navbar .nav-link:hover {
   background-color: rgb(193, 81, 133);
   color: white;

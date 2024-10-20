@@ -34,6 +34,7 @@ export default function Newsletter() {
                     <Form.Control
                       type="email"
                       placeholder="@typeyouremailhere"
+                      required
                     />
                   </Form.Group>
                   <button
