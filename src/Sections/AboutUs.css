@@ -1,0 +1,70 @@
+.main-div {
+  margin-top: 150px;
+}
+
+span {
+  font-size: 20px;
+  color: gray;
+}
+
+.about-p {
+  column-count: 2;
+  column-gap: 70px;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.about-h2 {
+    font-family: "PlayFair";
+    margin-top: 50px;
+}
+
+.abt-img {
+  width: 400px;
+  height: 220px;
+  border: 5px solid rgb(206, 83, 167);
+}
+
+.img-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-div{
+  background-color: rgba(172, 203, 208, 0.5);
+  padding: 20px 20px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-p {
+    column-count: 1;
+  }
+
+  .about-h2{
+    text-align: center;
+  }
+
+  .abt-img {
+    width: 200px;
+    height: 110px;
+  }
+
+  .img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Wraps images to the next line if necessary */
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .abt-img {
+    width: 300px;
+    height: 165px;
+  }
+}

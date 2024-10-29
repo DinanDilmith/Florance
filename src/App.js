@@ -6,6 +6,8 @@ import Navibar from "./Components/Navibar";
 import AboutUs from "./Sections/AboutUs";
 import DeliveryInfo from "./Sections/DeliveryInfo";
 import ContactUs from "./Sections/ContactUs";
+import Footer from "./Components/Footer";
+import ScrollToTop from "./Hooks/ScrollToTop";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,18 +22,21 @@ function App() {
 
   return (
     <Router>
+
+      <ScrollToTop /> {/* reset scroll position*/}
+
       {loading ? (
         <Loading />
       ) : (
         <div>
           <Navibar />
-
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/About" element={<AboutUs/>} />
-            <Route path="/DeliveryInfo" element={<DeliveryInfo/>} />
-            <Route path="/ContactUs" element={<ContactUs/>} />
+            <Route path="/About" element={<AboutUs />} />
+            <Route path="/DeliveryInfo" element={<DeliveryInfo />} />
+            <Route path="/ContactUs" element={<ContactUs />} />
           </Routes>
+          <Footer />
         </div>
       )}
     </Router>

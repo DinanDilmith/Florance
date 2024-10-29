@@ -1,0 +1,34 @@
+.reviews-comp-div {
+  background-color: rgba(172, 203, 208, 0);
+  padding: 50px;
+  border-bottom: 2px solid gray;
+}
+
+.cus-img {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.cus-img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.cus-heading h5 {
+  margin-top: 50px;
+  text-align: end;
+}
+
+@media only screen and (max-width: 992px) {
+  .cus-img {
+    max-height: 150px;
+    max-width: 150px;
+    margin-bottom: 30px;
+  }
+
+  .cus-heading h5 {
+    margin-top: 0px;
+    text-align: center;
+  }
+}
