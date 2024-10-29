@@ -21,6 +21,11 @@
 }
 
 @media only screen and (max-width: 992px) {
+
+    .reviews-comp-div {
+        padding: 20px;
+      }
+
   .cus-img {
     max-height: 150px;
     max-width: 150px;
@@ -29,6 +34,10 @@
 
   .cus-heading h5 {
     margin-top: 0px;
+    text-align: center;
+  }
+
+  .cus-heading h3 {
     text-align: center;
   }
 }
